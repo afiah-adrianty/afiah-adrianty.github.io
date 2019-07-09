@@ -1,1 +1,69 @@
+/* Strat Countainer */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Countainer */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo*/
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: pink;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12),
+}
+.menu-primer li {
+    border-right: 1px solid gray;
+    display: inline-block;
+}
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #0000;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #3333;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: yellowgreen;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Debug */
+/* End Debug */
+
 
