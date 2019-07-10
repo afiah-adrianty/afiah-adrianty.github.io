@@ -35,7 +35,7 @@ body {
 /* Start Anchor / Hyperlink */
 a:link,
 a:visited {
-    color: yellowgreen;
+    color: rgb(241, 160, 30);
     text-decoration: none;
 }
 a:hover,
@@ -120,6 +120,44 @@ h6 {
 }
 /* End Jumbotron */
 
+/* Start Main*/
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+/* End Box */
+
 /* Start Menu Sekunder */
 .menu-sekunder {
     background-color:  #f6f8fa;
@@ -158,6 +196,12 @@ h6 {
     vertical-align: middle
 }
 /* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
 
 /* Start JS */
 @import url(https://fonts.googleapis.com/css?family=Monsterrat:400,700;);
